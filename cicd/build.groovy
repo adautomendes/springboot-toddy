@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 script {
-                    git branch: 'main', url: 'https://github.com/adautomendes/springboot-helloworld.git'
+                    git branch: 'main', url: 'https://github.com/adautomendes/springboot-toddy.git'
                 }
             }
         }
