@@ -17,6 +17,15 @@ pipeline {
             }
         }
 
+        stage('Print test configuration') {
+            steps {
+                script {
+                    println "Toddy size min: ${toddySizeMin}"
+                    println "Toddy size max: ${toddySizeMax}"
+                }
+            }
+        }
+
         stage('Run Unit Tests') {
             steps {
                 script {
