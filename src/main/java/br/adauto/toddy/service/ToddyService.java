@@ -21,6 +21,8 @@ public class ToddyService
 
     public ToddyDTO postToddy(ToddyDTO toddyDTO)
     {
+        String stringNaoUsada = "";
+
         if (toddyDTO.getSize() >= toddySizeMin && toddyDTO.getSize() <= toddySizeMax)
         {
             return ToddyDTO.builder()
