@@ -28,7 +28,7 @@ public class ToddyServiceTest
 
         correctToddyDTO = ToddyDTO.builder()
                                   .name("Correct")
-                                  .size(200)
+                                  .size(190)
                                   .build();
 
         incorrectToddyDTO = ToddyDTO.builder()
